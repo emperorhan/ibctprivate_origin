@@ -29,25 +29,25 @@ PRIV_KEY_88="$( jq -r '.PRIV_KEY_88' "00_CONFIG.conf" )"
 
 ./cleos.sh system delegatebw $INIT_ACCOUNT $INIT_ACCOUNT "1000.0000 CR" "1000.0000 CR"
 ./cleos.sh system regproducer $INIT_ACCOUNT $INIT_PUB_KEY https://ibct.io/
-./cleos.sh system voteproducer prods $INIT_ACCOUNT $INIT_ACCOUNT
+./cleos.sh system voteproducer prods eosio $INIT_ACCOUNT
 ./cleos.sh system listproducers
 
 
-./cleos.sh system newaccount --stake-net "1000000.0000 CR" --stake-cpu "1000000.0000 CR" --buy-ram "100.0000 CR" eosio $ACCOUNT_77 $PUB_KEY_77 $PUB_KEY_77 -p eosio
+# ./cleos.sh system newaccount --stake-net "1000000.0000 CR" --stake-cpu "1000000.0000 CR" --buy-ram "100.0000 CR" eosio $ACCOUNT_77 $PUB_KEY_77 $PUB_KEY_77 -p eosio
 
-./cleos.sh system newaccount --stake-net "1000000.0000 CR" --stake-cpu "1000000.0000 CR" --buy-ram "100.0000 CR" eosio $ACCOUNT_78 $PUB_KEY_78 $PUB_KEY_78 -p eosio
+# ./cleos.sh system newaccount --stake-net "1000000.0000 CR" --stake-cpu "1000000.0000 CR" --buy-ram "100.0000 CR" eosio $ACCOUNT_78 $PUB_KEY_78 $PUB_KEY_78 -p eosio
 
-./cleos.sh system newaccount --stake-net "1000000.0000 CR" --stake-cpu "1000000.0000 CR" --buy-ram "100.0000 CR" eosio $ACCOUNT_79 $PUB_KEY_79 $PUB_KEY_79 -p eosio
+# ./cleos.sh system newaccount --stake-net "1000000.0000 CR" --stake-cpu "1000000.0000 CR" --buy-ram "100.0000 CR" eosio $ACCOUNT_79 $PUB_KEY_79 $PUB_KEY_79 -p eosio
 
-./cleos.sh system newaccount --stake-net "1000000.0000 CR" --stake-cpu "1000000.0000 CR" --buy-ram "100.0000 CR" eosio $ACCOUNT_86 $PUB_KEY_86 $PUB_KEY_86 -p eosio
+# ./cleos.sh system newaccount --stake-net "1000000.0000 CR" --stake-cpu "1000000.0000 CR" --buy-ram "100.0000 CR" eosio $ACCOUNT_86 $PUB_KEY_86 $PUB_KEY_86 -p eosio
 
-./cleos.sh system newaccount --stake-net "1000000.0000 CR" --stake-cpu "1000000.0000 CR" --buy-ram "100.0000 CR" eosio $ACCOUNT_87 $PUB_KEY_87 $PUB_KEY_87 -p eosio
+# ./cleos.sh system newaccount --stake-net "1000000.0000 CR" --stake-cpu "1000000.0000 CR" --buy-ram "100.0000 CR" eosio $ACCOUNT_87 $PUB_KEY_87 $PUB_KEY_87 -p eosio
 
-./cleos.sh system newaccount --stake-net "1000000.0000 CR" --stake-cpu "1000000.0000 CR" --buy-ram "100.0000 CR" eosio $ACCOUNT_88 $PUB_KEY_88 $PUB_KEY_88 -p eosio
+# ./cleos.sh system newaccount --stake-net "1000000.0000 CR" --stake-cpu "1000000.0000 CR" --buy-ram "100.0000 CR" eosio $ACCOUNT_88 $PUB_KEY_88 $PUB_KEY_88 -p eosio
 
-./cleos.sh transfer eosio ibctjooilkim "10000.0000 CR" "init"
-./cleos.sh transfer eosio ibctjasonpak "10000.0000 CR" "init"
-./cleos.sh transfer eosio ibctryanking "10000.0000 CR" "init"
-./cleos.sh transfer eosio ibctregiscss "10000.0000 CR" "init"
-./cleos.sh transfer eosio ibctemperorh "10000.0000 CR" "init"
-./cleos.sh transfer eosio ibctsejinctp "10000.0000 CR" "init"
+# ./cleos.sh transfer eosio ibctjooilkim "10000.0000 CR" "init"
+# ./cleos.sh transfer eosio ibctjasonpak "10000.0000 CR" "init"
+# ./cleos.sh transfer eosio ibctryanking "10000.0000 CR" "init"
+# ./cleos.sh transfer eosio ibctregiscss "10000.0000 CR" "init"
+# ./cleos.sh transfer eosio ibctemperorh "10000.0000 CR" "init"
+# ./cleos.sh transfer eosio ibctsejinctp "10000.0000 CR" "init"
