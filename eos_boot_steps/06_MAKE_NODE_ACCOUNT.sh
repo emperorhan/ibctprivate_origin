@@ -54,8 +54,3 @@ PRIV_KEY_80="$( jq -r '.PRIV_KEY_80' "00_CONFIG.conf" )"
 ./cleos.sh transfer eosio $ACCOUNT_87 "24999900.0000 CR" "init" -p eosio
 ./cleos.sh transfer eosio $ACCOUNT_88 "24999900.0000 CR" "init" -p eosio
 ./cleos.sh transfer eosio $ACCOUNT_80 "24999900.0000 CR" "init" -p eosio
-
-./cleos.sh system regproducer $INIT_ACCOUNT $INIT_PUB_KEY https://ibct.io/ -p ibctgenesis1
-./cleos.sh system delegatebw $INIT_ACCOUNT $INIT_ACCOUNT "1000000.0000 CR" "1000000.0000 CR"
-./cleos.sh system voteproducer prods eosio $INIT_ACCOUNT
-./cleos.sh system listproducers
