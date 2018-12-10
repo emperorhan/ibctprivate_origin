@@ -23,12 +23,12 @@ sleep 2s
 ./05*
 ./06*
 
-/home/eos/ibctprivate/node/start.sh
-sleep 2s
+# /home/eos/ibctprivate/node/start.sh
+# sleep 2s
 
-./07*
-./08*
-sleep 2s
+# ./07*
+# ./08*
+# sleep 2s
 
-./cleos.sh get info
+# ./cleos.sh get info
 #now manually shutdown eosio nodeos
